@@ -13,7 +13,7 @@ function App() {
       <Tab.Navigator initialRouteName="Increment/Decrement Counter">
         <Tab.Screen name="Example 1" component={Redux1} />
         <Tab.Screen name="Example 2" component={Redux2} />
-        <Tab.Screen name="3" component={Redux3} />
+        <Tab.Screen name="Example 3" component={Redux3} />
       </Tab.Navigator>
     </NavigationContainer>
   );
